@@ -1,0 +1,223 @@
+{
+  "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+  "wallpaper": "https://blur.zntv.dpdns.org",//随机壁纸
+  "lives": [
+{"name": "国外频道","type": 0,"url": "","ua": "okhttp/3.15","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
+    // 一、TG与聚合搜索类
+    {"key": "Tg | 聚合","name": "tg豆瓣","type": 3,"api": "csp_TgYunDouBanPan","searchable": 1,"changeable": 0,"ext": {  "siteUrl": "https://tgsou.252035.xyz",  "count": 4,  "channelUsername": "Q_dianying,bsbdbfjfjff,tgsearchers3,Oscar_4Kmovies,Baidu_Netdisk,BaiduCloudDisk,peccxinpd,yp123pan,wp123zy,ResourceUniverse,leoziyuan,peccxin,peccxinpd,bdwpzhpd,ottpanpan,zyfb123,xx123pan,yydf_hzl,Maidanglaocom,yunpan189,SharePanBaidu,alyp_Animation,dianyingshare,XiangxiuNB,zaihuayun,Quark_Movies,vip115hot,shareAliyun,ZYFX2022,alyp_1,quanziyuanshe,ydypzyfx,clouddriveresources,NewQuark,oneonefivewpfx,Q66Share,alyp_4K_Movies,alyp_TV,zyzhpd123,yingshifenxiang123,cloud189_group,tianyirigeng,cloudtianyi,yunpanuc,ucshare,yggpan,tyysypzypd,hdhhd21,Lsp115,QukanMovie,tgsearchers115,Channel_Shares_115,share4115,ysxb69,ysxb48,guoman4K,djfxkk",  "commonConfig": "./json/peizhi.json",  "filter": "./json/douban.json"}
+    },
+    {"key": "盘搜","name": "盘搜","type": 3,"api": "csp_TgYunDouBanPan","searchable": 1,"changeable": 0,"ext": {  "siteUrl": "https://zxps.banye.tech:7777",  "count": 20,  "channelUsername": "",  "commonConfig": "./json/peizhi.json",  "filter": "./json/douban.json"}
+    },
+    // 二、配置类
+    {"key": "ConfigCenter","name": "配置中心","type": 3,"api": "csp_ConfigCenter","searchable": 0,"changeable": 0,"ext": {  "commonConfig": "./json/peizhi.json"}
+    },
+
+    // 三、网盘与资源搜索类
+
+    {
+      "key": "网盘集合",
+      "name": "网盘集合",
+      "type": 3,
+      "api": "csp_网盘集合",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "share": "./json/网盘集合.json"
+      }
+    },
+    {
+      "key": "网盘 | 片库",
+      "name": "片库",
+      "type": 3,
+      "api": "csp_Qiwei",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "https://www.qwnull.com",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "玩偶 | 二小",
+      "name": "二小",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://xiaoer.5568.eu.org",
+        "filter": "./json/wogg.json"
+      }
+    },
+
+    {
+      "key": "玩偶 | 多多",
+      "name": "多多",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://tv.yydsys.top",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 蜡笔",
+      "name": "蜡笔",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://feimao888.fun",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 木偶",
+      "name": "木偶",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://666.666291.xyz",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶gg",
+      "name": "玩偶哥哥",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://wogg.xxooo.cf",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶虎斑",
+      "name": "虎斑",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://103.45.162.207:20720/",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶虎斑2",
+      "name": "虎斑2",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://xsayang.fun:12512",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "星剧社",
+      "name": "星剧社",
+      "type": 3,
+      "api": "csp_Star2",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "https://1.star2.cn/",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+
+    {
+      "key": "哔哩FM",
+      "name": "哔哩Bili",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/bilibili.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "TgYunPan|本地",
+      "name": "tg搜本地",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "count": 4,
+        "channelUsername": "leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "盘Ta",
+      "name": "盘Ta",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "https://www.91panta.cn/",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "小雷",
+      "name": "天意雷鲸",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "https://www.leijing1.com/",
+        "cookie": "JSESSIONID=B24E6992236274BD6A636FE8EAA2FDA; cms_token=25968d70e1c64c3fa475c5bb15946443; cms_accessToken=8c67340ebecb46b88f9c85492bfe1cf1; cms_refreshToken=0af0ab743ae243be99b29c2af5b449a",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    // 四、应用与工具类
+    {"key":"yizys","name":"驿站App","type":3,"api":"csp_Xdai","jar":"http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01","playerType":2,"ext":"7lj763gg402i7942582ljiigh454jh9ig1ggi70ljhjk3977455343k5gi1508190gik13k1i01i949j614hkij5g0g404k3k9796k4gl2h3jhl527952jkg76g95k5ilkkkjhh8k261236896432i458hkk4i756kk2gg3i"},
+    {"key":"优质","name":"优质App","type":3,"api":"csp_Xdai","jar":"http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01","playerType":2,"ext":"7lj763gg402i7942503g83j2g04i8090khhh8451ik902l6l53510hg9gi410i5607974jhk994283883904gk88l3k549h1g87i754kkjh3jhki2g8724k064g85411gigljkl3g620"},
+{"key":"客星","name":"客星App","type":3,"api":"csp_Xdai","jar":"http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01","playerType":2,"ext":"7lj763gg0939790i413gi486k509jgi3ggk6j244j6j36j76041707h0lk124l0l0h867j83h576h3j66h4lk89lh5lh1jl3l170647kj09lklji74j56lg673li1h16"},
+    {"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 1,"filterable": 0,"switchable": 0,"ext": {  "commonConfig": "./json/peizhi.json"}
+    },
+    // 五、内容平台类
+
+    {"key":"巧技","name":"聚搜采集","type":3,"api":"csp_qiao2","playerType":2,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1749917849270/0615qj.jpg;md5;410ad21caad9e6f6d40c1ae5ca2be662","ext":"7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"}
+  ],
+  "rules": [
+    {"name": "proxy","hosts": [  "raw.githubusercontent.com",  "googlevideo.com",  "cdn.v82u1l.com",  "cdn.iz8qkg.com",  "cdn.kin6c1.com",  "stream-link.org",  "hinet.net",  "koyeb.app",  "c.biggggg.com",  "c.olddddd.com",  "haiwaikan.com",  "www.histar.tv",  "youtube.com",  "uhibo.com",  ".*boku.*",  ".*nivod.*",  "*.t4tv.hz.cz",  ".*ulivetv.*"]
+    }
+  ]
+}
